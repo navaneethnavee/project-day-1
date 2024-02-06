@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../css3/navigation"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "test"
+	}
+}

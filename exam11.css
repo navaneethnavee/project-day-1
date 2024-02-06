@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+}
+
+body{
+    background-color: #1e1b1b;
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(18, 18, 18);
+    color:white ;
+    padding: 10px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    
+}
+header nav,header nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#b1{
+    background-color: black;
+    border: 1px solid green;
+    background-color: #000;
+    color: green;
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+    
+}
+#b2{
+    border: 1px solid green;
+    background-color: rgb(50, 187, 50);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+}
+.bussiness,.simple,.finances{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    color: white;
+    min-height: 70px;
+    padding: 10px 10%;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.background{
+    flex: 1;
+    
+
+}
+.bussiness-content{
+    flex: 2;
+    text-align: start;
+    justify-content: center;
+    padding: 10px 10%;
+    min-height: 90vh;
+    
+    
+}
+.yellow{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.content{
+    font-size: 80px;
+}
+
+
+
+.p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.simple-content{
+    flex:2;
+    text-align: start;
+    min-height: 90vh;
+    min-width: 100px;
+    
+    
+}
+
+.simple-img,.finance-image{
+    min-height: 150px;
+    margin-top: 30px;
+}
+
+.fianance-content{
+    flex:2;
+    text-align: start;
+    justify-content: center;
+    min-height: 90vh;
+    min-width: 100px;
+    padding: 20px 8%;
+
+}
+
+
+[type="email"]{
+    padding: 20px;
+    margin: 20px;
+    width: 800px;
+    border: 2px solid #000;
+    border-radius: 5px ;
+}
+
+.info
+{
+    padding: 20px 8%;
+}
+
+[placeholder="Enter your email"]{
+    font-size: 20px;
+    font: bold;
+}
+.dot {
+    text-align: center;
+    padding: 20px 10px;
+    margin: 10px;
+    color: white;
+
+
+}
+ .h1 {
+    font-size: large;
+    align-items: center;
+    
+}
+span {
+    color: green;
+}
+.card{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    margin-top: 20px;
+    padding: 20px 5% ;
+    min-height: 200px;
+    
+    column-gap: 5px;
+    gap: 25px;
+    
+}
+.card img{
+   
+
+    border-radius: 100px;
+    
+}
+.card-1{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    padding: 10px 4%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid #090909;
+
+}
+
+.card-1 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.foot {
+    padding: 10px ;
+    margin: 10px;
+    color: white;
+
+}
+.foot p {
+    color: white;
+}
+.footer .div {
+    display: flex;
+}
+
